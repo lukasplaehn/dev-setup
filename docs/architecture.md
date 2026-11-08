@@ -169,7 +169,7 @@ On GitHub, two account settings back these hooks up: push protection for secrets
 |---|---|
 | `D:\packages\uv`, `D:\packages\pip` | Cache folders |
 | User environment | `UV_CACHE_DIR`, `PIP_CACHE_DIR` |
-| `%LOCALAPPDATA%\uv\python` | Interpreters |
+| `%APPDATA%\uv\python` | Interpreters |
 | `%APPDATA%\uv\tools` | `ruff`, `pre-commit` |
 | `%APPDATA%\Code\User\settings.json` | Baseline settings, only if the file does not exist yet |
 
